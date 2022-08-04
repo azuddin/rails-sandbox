@@ -20,7 +20,7 @@ class UsersController < ApplicationController
     render json: {message: 'OK' }.to_json, status: 200
   end
 
-  private
+private
 
   def user_params
     params.permit(
